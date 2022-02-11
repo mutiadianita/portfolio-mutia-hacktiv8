@@ -1,0 +1,35 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    z-index: 1044;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:1rem;
+    background-color: #7C83Bc;
+    color:#fff;
+}
+.navbarBrand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+.navbarNav {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    list-style: none;
+}
+
+.navbarLink {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    font-size: 1.25rem;
+    color: #fff !important;
+}

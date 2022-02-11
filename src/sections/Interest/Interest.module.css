@@ -1,0 +1,19 @@
+.interest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+    color:#7C83Bc;
+}
+.interestCard {
+    margin-bottom: 1rem;
+    text-align: center;
+    width: 200px;
+}
+.interestRow {
+    margin-top: 2rem;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
